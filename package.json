@@ -1,0 +1,30 @@
+{
+  "name": "assingment-3",
+  "version": "1.0.0",
+  "description": "this is my assingment - 3 project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShehabShan/assingment-3.git"
+  },
+  "keywords": [
+    "tailwind",
+    "daisyui"
+  ],
+  "author": "shehab shan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShehabShan/assingment-3/issues"
+  },
+  "homepage": "https://github.com/ShehabShan/assingment-3#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.10"
+  }
+}
